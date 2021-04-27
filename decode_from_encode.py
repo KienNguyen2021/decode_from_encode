@@ -20,7 +20,7 @@ def decrypt(cipher_text, shift_amount) :
         plain_text +=alphabet[new_position]
     print(f" The decode text is Hello {plain_text}")    
 
-
+direction = input ("Type 'encode'to encrypt, type 'decode' to decrypt :\n ")
 if direction == "encode" :   
    encrypt(plain_text = text, shift_amount= shift)    
 elif direction == "decode" :
